@@ -10,13 +10,16 @@ body {
     height: 100vh;
     font-family: 'Poppins', sans-serif;
 }
-p , h1{
-    color:#1D252C;
+
+p,
+h1 {
+    color: #1D252C;
 
 }
+
 a {
     text-decoration: none;
-    color:#1D252C;
+    color: #1D252C;
 }
 
 .navItem {
@@ -63,54 +66,83 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
-}
-
-.inputContainer {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    width: 30%;
     gap: 10px;
-    padding-bottom: 1rem;
+    padding: 2rem;
 }
 
-.input{
-    width: 100%;
-    outline: 0;
-    border-width: 0 0 1px;
-    line-height: 2;
-}
-
-.nextBtn{
+.nextBtn {
     border-style: none;
     cursor: pointer;
     color: white;
     background-color: #56B280;
     border-radius: 10px;
-    height: 2.5rem;
-    width: 3rem;
+    height: 4rem;
+    width: 10rem;
 }
-.nextBtnDiv{
+
+.nextBtnDiv {
     padding-bottom: 1rem;
     padding-left: 10rem;
 
 }
-.labels{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.parag {
+    text-align: center;
 }
-.wrongPassword{
-    color: red;
-    font-size: 10px;
+
+.productContainer {
+    width: 100%;
+    height: 100vh;
+    padding: 3rem;
+    margin: 3rem;
+}
+
+.productHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.productHeader h1 {
+    color: #0B254B;
+}
+
+.productHeader p {
+    color: #5E6E89;
+}
+
+
+.productCardContainer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.productCard {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 15.9375rem;
+    align-items: center;
+    background-color: #bbbfc5;
+    border-radius: 10px;
+    cursor: pointer;
 
 }
-.wrongEmail{
-    color: red;
-    font-size: 10px;
-    
+
+
+.productImage {
+    width: 17.5625rem;
+    height: 13.125rem;
+    flex-shrink: 0;
 }
-.navItem{
-    cursor: pointer;
+
+.productPrice {
+    color: #56B280;
+    text-align: right;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
